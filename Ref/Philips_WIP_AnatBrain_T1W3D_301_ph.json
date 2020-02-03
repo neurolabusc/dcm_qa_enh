@@ -38,7 +38,7 @@
 	"EchoTrainLength": 32,
 	"PhaseEncodingSteps": 64,
 	"AcquisitionMatrixPE": 64,
-	"ReconMatrixPE": 64,
+	"ReconMatrixPE": 256,
 	"PixelBandwidth": 217.254,
 	"ImageOrientationPatientDICOM": [
 		1,
