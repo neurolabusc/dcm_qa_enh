@@ -22,6 +22,10 @@
 	"SeriesNumber": 1001,
 	"AcquisitionTime": "15:28:54.510000",
 	"AcquisitionNumber": 10,
+	"PhilipsRescaleSlope": 0.769475,
+	"PhilipsRescaleIntercept": 0,
+	"PhilipsScaleSlope": 0.00363177,
+	"UsePhilipsFloatNotDisplayScaling": 1,
 	"SliceThickness": 4,
 	"SpacingBetweenSlices": 4,
 	"EchoNumber": 2,
@@ -50,5 +54,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201030"
+	"ConversionSoftwareVersion": "v1.0.20210308"
 }

@@ -18,7 +18,7 @@
 	"ScanningSequence": "RM",
 	"SequenceVariant": "SS",
 	"ScanOptions": "OTHER",
-	"ImageType": ["ORIGINAL", "PRIMARY", "T1", "MIXED"],
+	"ImageType": ["ORIGINAL", "PRIMARY", "T1", "MIXED", "FIELDMAPHZ"],
 	"SeriesNumber": 801,
 	"AcquisitionTime": "15:25:9.020000",
 	"AcquisitionNumber": 8,
@@ -53,5 +53,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20201030"
+	"ConversionSoftwareVersion": "v1.0.20210308"
 }
