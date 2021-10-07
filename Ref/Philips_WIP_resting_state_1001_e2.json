@@ -31,6 +31,7 @@
 	"EchoNumber": 2,
 	"EchoTime": 0.023165,
 	"RepetitionTime": 1.5,
+	"MTState": false,
 	"FlipAngle": 72,
 	"CoilString": "MULTI COIL",
 	"PercentPhaseFOV": 100,
@@ -40,6 +41,7 @@
 	"AcquisitionMatrixPE": 62,
 	"ReconMatrixPE": 128,
 	"ParallelReductionFactorInPlane": 2,
+	"ParallelAcquisitionTechnique": "SENSE",
 	"WaterFatShift": 6.1441,
 	"EstimatedEffectiveEchoSpacing": 0.000109602,
 	"EstimatedTotalReadoutTime": 0.0139195,
@@ -54,5 +56,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20210308"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }

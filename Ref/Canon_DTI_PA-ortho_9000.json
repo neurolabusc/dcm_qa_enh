@@ -18,14 +18,17 @@
 	"SliceThickness": 3,
 	"EchoTime": 0.079,
 	"RepetitionTime": 10,
+	"MTState": false,
 	"FlipAngle": 90,
 	"CoilString": "32ch Head SPDR",
 	"PercentPhaseFOV": 100,
 	"PercentSampling": 100,
 	"EchoTrainLength": 30,
+	"PartialFourierDirection": "PHASE",
 	"AcquisitionMatrixPE": 80,
 	"ReconMatrixPE": 80,
 	"ParallelReductionFactorInPlane": 2,
+	"ParallelAcquisitionTechnique": "OTHER",
 	"PixelBandwidth": 1562.5,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [
@@ -37,5 +40,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20210308"
+	"ConversionSoftwareVersion": "v1.0.20211006"
 }
