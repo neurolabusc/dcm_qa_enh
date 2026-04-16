@@ -1,17 +1,18 @@
 {
 	"Modality": "MR",
 	"MagneticFieldStrength": 3,
-	"ImagingFrequency": 123.208,
+	"ImagingFrequency": 123.2084787,
 	"Manufacturer": "Canon",
 	"ManufacturersModelName": "Galan 3T",
 	"DeviceSerialNumber": "9143",
-	"BodyPartExamined": "HEAD",
+	"BodyPart": "HEAD",
 	"PatientPosition": "HFS",
 	"SoftwareVersions": "V6.0SP2000*",
 	"MRAcquisitionType": "2D",
 	"SeriesDescription": "DTI_PA-ortho",
 	"ProtocolName": "DTI_PA-ortho",
-	"ImageType": ["ORIGINAL", "PRIMARY", "GDC", "NONE"],
+	"PulseSequenceName": "DTI_PA-ortho",
+	"ImageType": ["ORIGINAL", "PRIMARY", "GDC", "NONE", "MAGNITUDE"],
 	"SeriesNumber": 9000,
 	"AcquisitionTime": "10:22:54.000000",
 	"AcquisitionNumber": 1,
@@ -25,7 +26,8 @@
 	"PercentSampling": 100,
 	"EchoTrainLength": 30,
 	"PartialFourierDirection": "PHASE",
-	"AcquisitionMatrixPE": 80,
+	"PhaseEncodingSteps": 80,
+	"FrequencyEncodingSteps": 80,
 	"ReconMatrixPE": 80,
 	"ParallelReductionFactorInPlane": 2,
 	"ParallelAcquisitionTechnique": "OTHER",
@@ -40,5 +42,5 @@
 		0	],
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20211006"
+	"ConversionSoftwareVersion": "v1.0.20260416"
 }
