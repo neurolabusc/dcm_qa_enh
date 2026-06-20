@@ -17,11 +17,12 @@
 	"ProtocolName": "WIP AnatBrain_T1W3D",
 	"ScanningSequence": "GR",
 	"SequenceVariant": "MP",
+	"PulseSequenceType": "Gradient Echo",
 	"ScanOptions": "SP",
-	"PulseSequenceName": "T1TFE",
+	"SequenceName": "T1TFE",
 	"ImageType": ["ORIGINAL", "PRIMARY", "T1", "MIXED", "PHASE"],
 	"SeriesNumber": 301,
-	"AcquisitionTime": "15:12:7.980000",
+	"AcquisitionTime": "15:12:07.980000",
 	"AcquisitionNumber": 3,
 	"PhilipsRWVSlope": 1.53455,
 	"PhilipsRWVIntercept": -3142,
@@ -52,10 +53,14 @@
 	"ReconMatrixPE": 256,
 	"ParallelReductionFactorInPlane": 2,
 	"ParallelAcquisitionTechnique": "SENSE",
+	"ParallelReductionFactorOutOfPlane": 1,
 	"WaterFatShift": 1.99948,
 	"EstimatedEffectiveEchoSpacing": 1.75036e-05,
 	"EstimatedTotalReadoutTime": 0.00446342,
+	"AcquisitionDuration": 14.2545,
+	"NumberOfKSpaceTrajectories": 41,
 	"PixelBandwidth": 217.254,
+	"PhaseEncodingAxis": "i",
 	"ImageOrientationPatientDICOM": [
 		1,
 		0,
@@ -66,5 +71,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "ROW",
 	"BidsGuess": ["anat","_acq-MPGRT1TFEp20_run-301_T1w"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }

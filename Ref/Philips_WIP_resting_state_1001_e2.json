@@ -17,8 +17,9 @@
 	"ProtocolName": "WIP resting_state",
 	"ScanningSequence": "GR",
 	"SequenceVariant": "SK",
+	"PulseSequenceType": "Gradient Echo",
 	"ScanOptions": "FS",
-	"PulseSequenceName": "FEEPI",
+	"SequenceName": "FEEPI",
 	"ImageType": ["ORIGINAL", "PRIMARY", "PROTON", "DENSITY", "NONE"],
 	"SeriesNumber": 1001,
 	"AcquisitionTime": "15:28:54.510000",
@@ -37,6 +38,7 @@
 	"EchoTime": 0.023165,
 	"RepetitionTime": 1.5,
 	"MTState": false,
+	"SpoilingState": false,
 	"FlipAngle": 72,
 	"CoilString": "MULTI COIL",
 	"PercentPhaseFOV": 100,
@@ -49,9 +51,12 @@
 	"ReconMatrixPE": 128,
 	"ParallelReductionFactorInPlane": 2,
 	"ParallelAcquisitionTechnique": "SENSE",
+	"ParallelReductionFactorOutOfPlane": 1,
 	"WaterFatShift": 6.1441,
 	"EstimatedEffectiveEchoSpacing": 0.000109602,
 	"EstimatedTotalReadoutTime": 0.0139195,
+	"AcquisitionDuration": 16.393,
+	"NumberOfKSpaceTrajectories": 1,
 	"PixelBandwidth": 3764.35,
 	"PhaseEncodingAxis": "j",
 	"ImageOrientationPatientDICOM": [
@@ -64,5 +69,5 @@
 	"InPlanePhaseEncodingDirectionDICOM": "COL",
 	"BidsGuess": ["func","_acq-SKGRFEEPIp20_run-1001_echo-2_bold"],
 	"ConversionSoftware": "dcm2niix",
-	"ConversionSoftwareVersion": "v1.0.20260416"
+	"ConversionSoftwareVersion": "v1.0.20260620"
 }
